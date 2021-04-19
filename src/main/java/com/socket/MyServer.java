@@ -11,7 +11,7 @@ public class MyServer {
 
     public static void main(String[] args) throws Exception {
         // 清除主控台資料
-        new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+        //new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
         int port = 5000;
         ServerSocket server = new ServerSocket(port);
         System.out.println("等待 Client 連入");
